@@ -1,0 +1,1 @@
+-keep class com.example.cognito_login_example.BuildConfig { *; }

@@ -1,0 +1,20 @@
+environment_config:
+  path: spine/environment_config.dart
+  dotenv_path: .env
+  class: EnvironmentConfig
+
+  fields:
+    env:
+      dotenv: true
+    cognitoUserPoolId:
+    cognitoClientId:
+
+  extensions:
+    dev:
+      fields:
+        env:
+          default: dev
+        cognitoUserPoolId:
+          default: your_pool_id
+        cognitoClientId:
+          default: your_client_id
